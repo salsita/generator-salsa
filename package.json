@@ -1,6 +1,6 @@
 {
   "name": "generator-salsa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AngularJS salsa for web/mobile apps and browser extensions.",
   "homepage": "https://github.com/salsita/generator-salsa",
   "repository": {
