@@ -2,6 +2,7 @@
 ## Features (coming soon)
 
 Salsa type:
+
 - Single-page web/mobile applications based on [AngularJS](http://angularjs.org), [Grunt](http://gruntjs.com) and [Bower](http://bower.io),
 - RESTful web/mobile applications with backend based on [MEAN stack](http://mean.io):
   + client:
@@ -17,6 +18,7 @@ Salsa type:
 - [Google Chrome AngularJS extensions](https://github.com/salsita/chrome-angular-skeleton).
 
 Available spices:
+
 - [CoffeeScript](http://coffeescript.org)/[CS2](https://github.com/michaelficarra/CoffeeScriptRedux)/[ECMAScript 3](http://en.wikipedia.org/wiki/ECMAScript#Version_correspondence)/[ES5-shim](https://github.com/kriskowal/es5-shim)/[ES5](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript.2C_5th_Edition)/[ES6](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript_Harmony_.286th_Edition.29)/[Traceur](https://github.com/google/traceur-compiler),
 - [Jade](http://jade-lang.com)/[HTML](http://www.w3.org/html),
   [LESS](http://lesscss.org),

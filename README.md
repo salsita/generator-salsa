@@ -8,6 +8,7 @@
 ## Features (coming soon)
 
 Salsa type:
+
 - Single-page web/mobile applications based on [AngularJS](http://angularjs.org), [Grunt](http://gruntjs.com) and [Bower](http://bower.io),
 - RESTful web/mobile applications with backend based on [MEAN stack](http://mean.io):
   + client:
@@ -23,6 +24,7 @@ Salsa type:
 - [Google Chrome AngularJS extensions](https://github.com/salsita/chrome-angular-skeleton).
 
 Available spices:
+
 - [CoffeeScript](http://coffeescript.org)/[CS2](https://github.com/michaelficarra/CoffeeScriptRedux)/[ECMAScript 3](http://en.wikipedia.org/wiki/ECMAScript#Version_correspondence)/[ES5-shim](https://github.com/kriskowal/es5-shim)/[ES5](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript.2C_5th_Edition)/[ES6](http://en.wikipedia.org/wiki/ECMAScript#ECMAScript_Harmony_.286th_Edition.29)/[Traceur](https://github.com/google/traceur-compiler),
 - [Jade](http://jade-lang.com)/[HTML](http://www.w3.org/html),
   [LESS](http://lesscss.org),
@@ -107,19 +109,19 @@ Welcome to the project. Choose a way that suits you. You'll need a [GitHub accou
 
 ### Submit a bug, or feature request
 
-* Search [existing issues](https://github.com/salsita/generator-salsa/issues) to avoid duplicities.
-* [Submit an issue](https://github.com/salsita/generator-salsa/issues/new) with label `bug`, or `enhancement`.
-* For a bug, include any relevant information, e.g. task output, installed OS/Node.js/Grunt/generator-salsa versions, and steps to reproduce.
+- Search [existing issues](https://github.com/salsita/generator-salsa/issues) to avoid duplicities.
+- [Submit an issue](https://github.com/salsita/generator-salsa/issues/new) with label `bug`, or `enhancement`.
+- For a bug, include any relevant information, e.g. task output, installed OS/Node.js/Grunt/generator-salsa versions, and steps to reproduce.
 
 ### Submit a pull request
 
-* [Fork the repository](https://github.com/salsita/generator-salsa/fork) ([help](https://help.github.com/articles/fork-a-repo)) and checkout new branch with `<type>-` prefix in name, where type may be feature, fix, docs, or chore.
-* [Use](https://github.com/salsita/generator-salsa/blob/master/.jshintrc) the [popular JavaScript style convention](http://sideeffect.kr/popularconvention#javascript) and [winning JavaScript style](http://seravo.fi/2013/javascript-the-winning-style) with exception of 100 characters per line. In short, use 2 spaces indent, camelCase names, trailing comma, single quotes, semicolons, sparse spacing, and no trailing whitespace.
-* For bugfix, write a test that exposes the bug and fails without the fix. Submit the test alongside.
-* For a new feature, add tests that cover the feature.
-* Lint and test your code with `grunt`, or `grunt watch` to watch sources and run tests on any change.
-* Use commit messages that follow [Karma/Angular commit message convention](https://github.com/karma-runner/karma/blob/master/docs/dev/04-git-commit-msg.md) ([docs](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#)). In short, use `<type>(<scope>): <subject>` header in imperative present tense, message body describing motivation/differences, and footer referencing related issues and breaking changes.
-* [Create a pull request](https://github.com/salsita/generator-salsa/compare) to [generator-salsa](https://github.com/salsita/generator-salsa) [master](https://github.com/salsita/generator-salsa/branches) branch ([help](https://help.github.com/articles/creating-a-pull-request)).
+- [Fork the repository](https://github.com/salsita/generator-salsa/fork) ([help](https://help.github.com/articles/fork-a-repo)) and checkout new branch with `<type>-` prefix in name, where type may be feature, fix, docs, or chore.
+- [Use](https://github.com/salsita/generator-salsa/blob/master/.jshintrc) the [popular JavaScript style convention](http://sideeffect.kr/popularconvention#javascript) and [winning JavaScript style](http://seravo.fi/2013/javascript-the-winning-style) with exception of 100 characters per line. In short, use 2 spaces indent, camelCase names, trailing comma, single quotes, semicolons, sparse spacing, and no trailing whitespace.
+- For bugfix, write a test that exposes the bug and fails without the fix. Submit the test alongside.
+- For a new feature, add tests that cover the feature.
+- Lint and test your code with `grunt`, or `grunt watch` to watch sources and run tests on any change.
+- Use commit messages that follow [Karma/Angular commit message convention](https://github.com/karma-runner/karma/blob/master/docs/dev/04-git-commit-msg.md) ([docs](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#)). In short, use `<type>(<scope>): <subject>` header in imperative present tense, message body describing motivation/differences, and footer referencing related issues and breaking changes.
+- [Create a pull request](https://github.com/salsita/generator-salsa/compare) to [generator-salsa](https://github.com/salsita/generator-salsa) [master](https://github.com/salsita/generator-salsa/branches) branch ([help](https://help.github.com/articles/creating-a-pull-request)).
 
 
 ## Roadmap
