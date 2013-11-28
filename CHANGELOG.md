@@ -1,3 +1,17 @@
+<a name="v0.0.4"></a>
+### v0.0.4 (2013-11-28)
+
+
+#### Bug Fixes
+
+* **generator:** add .gitignore to generated project ([fe7c8c44](http://github.com/salsita/generator-salsa/commit/fe7c8c44a473c5a7e881ea04041926a91f6dbf67))
+* **grunt:** reload express on app.js change with grunt-express bug workaround ([cdee23de](http://github.com/salsita/generator-salsa/commit/cdee23de7ea740060293cb26f284f0764fee0edb))
+
+
+#### Features
+
+* **devdeps:** update grunt-express to ~1.2.1 ([b634b67a](http://github.com/salsita/generator-salsa/commit/b634b67a8480270a527e0a42051197af7486dab1))
+
 <a name="v0.0.2"></a>
 ### v0.0.2 (2013-11-21)
 
