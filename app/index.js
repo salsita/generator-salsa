@@ -53,6 +53,7 @@ SalsaGenerator.prototype.app = function app() {
 
 SalsaGenerator.prototype.projectfiles = function projectfiles() {
   // Config
+  this.copy('_gitignore', '.gitignore');
   this.copy('_bowerrc', '.bowerrc');
   this.copy('_editorconfig', '.editorconfig');
   this.copy('_jshintrc', '.jshintrc');
