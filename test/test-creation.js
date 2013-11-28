@@ -12,7 +12,7 @@ describe('salsa generator', function () {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('app', [
+      this.app = helpers.createGenerator('salsa:app', [
         '../../app'
       ]);
       done();
