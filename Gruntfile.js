@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       all: [
         'Gruntfile.js',
         'app/*.js',
-        'test/**/*.js',
+        'test/*.js',
       ],
       options: {
         jshintrc: '.jshintrc',
@@ -58,13 +58,13 @@ module.exports = function (grunt) {
       options: {
         reporter: 'spec',
       },
-      src: ['test/**/*.js'],
+      src: ['test/*.js'],
     },
 
     // Watch sources and run tests.
     delta: {
       js: {
-        files: ['test/**', 'app/*.js', 'Gruntfile.js'],
+        files: ['test/*.js', 'app/*.js', 'Gruntfile.js'],
         tasks: ['jshint', 'test'],
       },
       jshintrc: {
@@ -72,21 +72,23 @@ module.exports = function (grunt) {
         tasks: ['jshint'],
       },
       readme: {
-        files: ['docs/**.md', 'LICENSE.md', 'CHANGELOG.md'],
+        files: ['docs/*.md', 'LICENSE.md', 'CHANGELOG.md'],
         tasks: ['concat:readme'],
       },
 
     },
   });
 
-  // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'test', 'concat']);
+  // By default, run build including tests.
+  grunt.registerTask('build-notest', ['concat']);
+  grunt.registerTask('build', ['test', 'build-notest']);
+  grunt.registerTask('default', ['build']);
 
-  // On watch, run both default and delta (original watch).
+  // On watch, run both build and delta (original watch).
   grunt.renameTask('watch', 'delta');
-  grunt.registerTask('watch', ['default', 'delta']);
+  grunt.registerTask('watch', ['build', 'delta']);
 
-  // On test, do cleanup and then run Mocha tests.
-  grunt.registerTask('test', ['clean', 'mochaTest']);
+  // On test, do jshint, cleanup and run Mocha tests.
+  grunt.registerTask('test', ['jshint', 'clean', 'mochaTest']);
 
 };
