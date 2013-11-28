@@ -27,7 +27,7 @@ Available spices:
 - [Karma](http://karma-runner.github.io),
   [Jasmine](http://pivotal.github.io/jasmine)/[Mocha](http://visionmedia.github.io/mocha)+[Chai](http://chaijs.com)+[as-promised](https://github.com/domenic/chai-as-promised)+[Sinon](http://sinonjs.org),
   [Istanbul](https://github.com/gotwarlost/istanbul),
-- [Browserify](http://browserify.org),
-  [ngmin](https://github.com/btford/ngmin).
+- [Importer](https://github.com/devongovett/importer)/[concat-sourcemap](https://npmjs.org/package/grunt-concat-sourcemap)/[Browserify](http://browserify.org)/[r.js](https://github.com/asciidisco/grunt-requirejs),
+  [ngmin](https://github.com/btford/ngmin)+[filerev](https://github.com/yeoman/grunt-filerev)+[userev](https://github.com/salsita/grunt-userev).
 
 Inspired by [AngularJS generator](https://github.com/yeoman/generator-angular), [ngBoilerplate](http://joshdmiller.github.io/ng-boilerplate), and [MEAN stack generator](https://github.com/wlepinski/generator-meanstack). Served by [Yeoman](http://yeoman.io).

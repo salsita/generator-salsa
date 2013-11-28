@@ -33,8 +33,8 @@ Available spices:
 - [Karma](http://karma-runner.github.io),
   [Jasmine](http://pivotal.github.io/jasmine)/[Mocha](http://visionmedia.github.io/mocha)+[Chai](http://chaijs.com)+[as-promised](https://github.com/domenic/chai-as-promised)+[Sinon](http://sinonjs.org),
   [Istanbul](https://github.com/gotwarlost/istanbul),
-- [Browserify](http://browserify.org),
-  [ngmin](https://github.com/btford/ngmin).
+- [Importer](https://github.com/devongovett/importer)/[concat-sourcemap](https://npmjs.org/package/grunt-concat-sourcemap)/[Browserify](http://browserify.org)/[r.js](https://github.com/asciidisco/grunt-requirejs),
+  [ngmin](https://github.com/btford/ngmin)+[filerev](https://github.com/yeoman/grunt-filerev)+[userev](https://github.com/salsita/grunt-userev).
 
 Inspired by [AngularJS generator](https://github.com/yeoman/generator-angular), [ngBoilerplate](http://joshdmiller.github.io/ng-boilerplate), and [MEAN stack generator](https://github.com/wlepinski/generator-meanstack). Served by [Yeoman](http://yeoman.io).
 
@@ -121,7 +121,7 @@ Welcome to the project. Choose a way that suits you. You'll need a [GitHub accou
 - For a new feature, add tests that cover the feature.
 - Lint and test your code with `grunt`, or `grunt watch` to watch sources and run tests on any change.
 - Use commit messages that follow [Karma/Angular commit message convention](https://github.com/karma-runner/karma/blob/master/docs/dev/04-git-commit-msg.md) ([docs](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#)). In short, use `<type>(<scope>): <subject>` header in imperative present tense, message body describing motivation/differences, and footer referencing related issues and breaking changes.
-- [Create a pull request](https://github.com/salsita/generator-salsa/compare) to [generator-salsa](https://github.com/salsita/generator-salsa) [master](https://github.com/salsita/generator-salsa/branches) branch ([help](https://help.github.com/articles/creating-a-pull-request)).
+- [Create a pull request](https://github.com/salsita/generator-salsa/compare) to the [master branch](https://github.com/salsita/generator-salsa/commits/master), or to any [pull request](https://github.com/salsita/generator-salsa/pulls) [branches](https://github.com/salsita/generator-salsa/branches) ([help](https://help.github.com/articles/creating-a-pull-request)).
 
 
 ## Roadmap
@@ -130,7 +130,7 @@ Welcome to the project. Choose a way that suits you. You'll need a [GitHub accou
   + Add the yeoman generator option parser and .salsarc
   + Add bump/npm/changelog/release tasks
   + Add reliable concurrent(watch-notest, karma:watch)
-  + Add concat/minify/sourcemaps/filerev/userev
+  + Add importer/concat+minify+sourcemaps+filerev+userev
 
 - **Demo application and tests:**
   + Add demo application

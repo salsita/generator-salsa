@@ -5,7 +5,7 @@
   + Add the yeoman generator option parser and .salsarc
   + Add bump/npm/changelog/release tasks
   + Add reliable concurrent(watch-notest, karma:watch)
-  + Add concat/minify/sourcemaps/filerev/userev
+  + Add importer/concat+minify+sourcemaps+filerev+userev
 
 - **Demo application and tests:**
   + Add demo application
