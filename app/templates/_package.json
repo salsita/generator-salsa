@@ -14,7 +14,7 @@
     "express-resource": "~1.0.0",
     "express-namespace": "~0.1.1",
     "mongoose": "~3.8.1",
-    "baucis": "~0.6.25",
+    "baucis": "git://github.com/tomaash/baucis",
     "lodash": "~2.3.0"
   },
   "devDependencies": {
