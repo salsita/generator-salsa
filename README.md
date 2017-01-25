@@ -31,7 +31,7 @@ Available spices:
   [UI-Bootstrap](http://angular-ui.github.io/bootstrap)/[Twitter Bootstrap](http://getbootstrap.com),
   [UI-Router](https://github.com/angular-ui/ui-router),
 - [Karma](http://karma-runner.github.io),
-  [Jasmine](http://pivotal.github.io/jasmine)/[Mocha](http://visionmedia.github.io/mocha)+[Chai](http://chaijs.com)+[as-promised](https://github.com/domenic/chai-as-promised)+[Sinon](http://sinonjs.org),
+  [Jasmine](http://pivotal.github.io/jasmine)/[Mocha](http://mochajs.org/)+[Chai](http://chaijs.com)+[as-promised](https://github.com/domenic/chai-as-promised)+[Sinon](http://sinonjs.org),
   [Istanbul](https://github.com/gotwarlost/istanbul),
 - [Importer](https://github.com/devongovett/importer)/[concat-sourcemap](https://npmjs.org/package/grunt-concat-sourcemap)/[Browserify](http://browserify.org)/[r.js](https://github.com/asciidisco/grunt-requirejs),
   [ngmin](https://github.com/btford/ngmin)+[filerev](https://github.com/yeoman/grunt-filerev)+[userev](https://github.com/salsita/grunt-userev).
